@@ -21,6 +21,22 @@
 
 }
 
+footer .social-links  a {
+    margin: 0 20px;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    background-color: orange;
+    color: white;
+    transition: all 100ms ease-in-out;
+
+}
+
+footer .social-links a:hover {
+color: white;
+background-color: orange;
+}
+
 @media screen and (min-width: 992px) {
     .navbar-brand img {
         max-width: 100px;
