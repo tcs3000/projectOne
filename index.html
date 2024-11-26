@@ -24,7 +24,33 @@
                         <a class="nav-link" href="#">MENU</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Wait List</a>
+
+                  <!-- Button trigger modal -->
+                        <li class="nav-item"></li>
+                        <a type="button" class="btn-light btn" data-bs-toggle="modal" data-bs-target="#waitListModal" style="color: orange;">Wait List</a>
+                          
+
+                  <!-- Modal -->
+                        <div class="modal fade" id="waitListModal" tabindex="-1" aria-labelledby="waitListModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="waitListModalLabel">Wait List</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+
+                  <!-- Modal body content goes here, add in a form. -->
+                                <p>Join our wait list to get notified when a table is available.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Submit</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                       </li>
                       <a class="navbar-brand d-none d-lg-block" href="#"><img src="./assets/img/logo1.jpg" alt="logo freepik"></a>
                       <li class="nav-item">
