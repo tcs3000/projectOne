@@ -13,7 +13,9 @@
     align-items: center;
 }
 
-
+.custom-toggler.navbar-toggler {
+    border-color: orange;
+}
 .navbar .navbar-nav .nav-link {
     color: orange;
     font-size: 1.1em;
