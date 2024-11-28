@@ -3,7 +3,7 @@
     font-family: "Lacquer", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 26px;
   }
 .navbar-brand img {
     max-width: 60px;
@@ -20,6 +20,26 @@
     padding: 0.5em 1em;
 
 }
+
+
+
+
+footer .social-links  a {
+    margin: 0 20px;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 90px;
+    background-color: orange;
+    color: white;
+    transition: all 100ms ease-in-out;
+
+}
+
+footer .social-links a:hover {
+color: orange;
+background-color: white;
+}
+
 
 @media screen and (min-width: 992px) {
     .navbar-brand img {
