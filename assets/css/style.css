@@ -6,10 +6,6 @@
     background-color: #472A19;
     color: #D39054;
 }
-
-body {
-  background-color: #472A19;
-}
    
 .navbar {
     font-family: "Lacquer", system-ui;
@@ -38,6 +34,8 @@ body {
     color: azure;
 }
 
+
+
 /* Changed coloe of toggler button*/
 .custom-toggler.navbar-toggler  {
     border-color: orange;
@@ -46,6 +44,13 @@ body {
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,165,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
+
+
+  h1 {
+    font-family: "lacquer", system-ui;
+    color: orange;
+    font-size: 100px;
+    } 
 
 .slogan {
     margin: 30px;
@@ -59,11 +64,19 @@ body {
 
 .slogan button {
     font-family: "Lacquer", system-ui;
+    border: 1px solid orange;
 }
+
 
 
 .carousel-item {
     height: 550px;
+}
+
+.carousel-caption {;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: orange;
 }
 
 .deals {
@@ -81,153 +94,24 @@ body {
     color: orange;
 }
 
+.coutdown button {
+    font-family: "Lacquer", system-ui;
+    border: 1px solid orange; 
+}
 
 .menu h2{
 color: orange;
 text-align: center;
 font-family: "Lacquer";
 font-size: 75px;
-
 }
-
-.mb-3 {
-    font-family: "lacquer", system-ui;
-    color: orange;
-    font-size: 100px;
-    } 
-   
-
-    .card container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 100px;
-        background-color: orange;
-    }
-
 
 .menu-item {
     background-color: orange;
 }
-    
-    .card {
-        width 400px;
-        flex-direction: column;
-        justify-content: center; 
-        background-color: azure;
-        border-radius: 10px;
-        overflow: hidden;
-        margin: 20px;
-        }
-
-
-
-    .card img{
-        width: cover;
-        height: auto;
-        margin-top: 0px;
-        border-radius: 10px;
-    }
-       
-    .navbar {
-        font-family: "Lacquer", system-ui;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 26px;
-      }
-    .navbar-brand img {
-        max-width: 60px;
-    }
-    
-    .navbar-nav {
-        align-items: center;
-    }
-    
-    
-    .navbar .navbar-nav .nav-link {
-        color: #D39054;
-        font-size: 1.1em;
-        padding: 0.5em 1em;
-    }
-    
-    
-    .navbar .navbar-nav .nav-link:hover {
-        color: black;
-    }
-    
-    /* Changed coloe of toggler button*/
-    .custom-toggler.navbar-toggler  {
-        border-color: orange;
-    }
-    
-    .custom-toggler .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,165,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-      }
-    
-      /*Slogan section */
-
-    .slogan {
-        margin: 30px;
-    }
-    .slogan p{
-        font-family: "Lacquer", system-ui;
-        font-size: 75px;
-        text-align: center;
-        color: orange;
-    }
-    
-    .slogan button {
-        font-family: "Lacquer", system-ui;
-    }
-    
-    /* Deals section style */
-    
-    .carousel-item {
-        height: 550px;
-    }
-    
-    .deals {
-        font-family: "Lacquer", system-ui;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 36px;
-        color: orange;
-        margin: 20px;
-    }
-    
-    .coutdown {
-        font-family: "Lacquer", system-ui;
-        font-size: 50px;
-        color: orange;
-    }
-    
-    
-    .menu h2{
-    color: orange;
-    text-align: center;
-    font-family: "Lacquer";
-    font-size: 75px;
-    
-    }
-    
-    .mb-3 {
-        font-family: "lacquer", system-ui;
-        color: orange;
-        font-size: 100px;
-        } 
-       
-    
-        .card container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 100px;
-            background-color: orange;
-        }
-    
         
         .card {
-            width 400px;
+            /* width: 400px; */
             flex-direction: column;
             justify-content: center; 
             background-color: azure;
@@ -247,7 +131,7 @@ font-size: 75px;
     
     
         .card-content {
-            width 400 px;
+            /* width 400 px; */
             border-radius: 10px;
             overflow: hidden;
             margin: 20px;
@@ -297,13 +181,11 @@ font-size: 75px;
         color: orange;
     }
     
-    
-    
     .findus {
         font-family: "Lacquer", system-ui;
         font-weight: 400;
         font-style: normal;
-        font-size: 16px;
+        font-size: 26px;
         color: #D39054;
         text-align: center;
         margin: 20px;
@@ -312,6 +194,10 @@ font-size: 75px;
     
     footer {
       margin: 35px;
+    }
+
+    .findus h2  {
+        font-size: 55px;
     }
     
     footer .social-links  a {
@@ -337,70 +223,4 @@ font-size: 75px;
             padding: 0 1em;
         }   
     }
-
-.btn {
-    color: orange;
-    background-color: #472A19;
-    border: none;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.btn:hover {
-    background-color: orange;
-    color: black;
-}
-
-.modal {
-    color: orange;
-    
-}
-
-.modal-content {
-    background-color: #472A19;
-    color: orange;
-}
-
-
-
-.findus {
-    font-family: "Lacquer", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    color: #D39054;
-    text-align: center;
-    margin: 20px;
-}
-
-footer {
-margin: 35px;
-}
-
-footer .social-links  a {
-    margin: 0 20px;
-    font-size: 24px;
-    padding: 10px 15px;
-    border-radius: 90px;
-    color: white;
-    transition: all 100ms ease-in-out;
-}
-
-footer .social-links a:hover {
-color: #D39054;
-background-color: white;
-}
-
-
-@media screen and (min-width: 992px) {
-    .navbar-brand img {
-        max-width: 100px;
-    }
-    .navbar-brand {
-        margin-right: 0;
-        padding: 0 1em;
-    }   
-   
-}
 
