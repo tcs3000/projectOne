@@ -26,6 +26,51 @@ background-color: #472A19;
     padding: 0.5em 1em;
 
 }
+
+/* Changed coloe of toggler button*/
+.custom-toggler.navbar-toggler  {
+    border-color: orange;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,165,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.slogan {
+    margin: 30px;
+}
+.slogan p{
+    font-family: "Lacquer", system-ui;
+    font-size: 75px;
+    text-align: center;
+    color: orange;
+}
+
+.slogan button {
+    font-family: "Lacquer", system-ui;
+}
+
+
+.carousel-item {
+    height: 550px;
+}
+
+.deals {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: orange;
+    margin: 20px;
+}
+
+.coutdown {
+    font-family: "Lacquer", system-ui;
+    font-size: 50px;
+    color: orange;
+}
+
+
 .menu h2{
 color: orange;
 text-align: center;
