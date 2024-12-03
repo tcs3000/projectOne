@@ -4,7 +4,7 @@ color: #D39054;
 body {
 background-color: #472A19;
 }
-  
+   
 .navbar {
     font-family: "Lacquer", system-ui;
     font-weight: 400;
@@ -24,7 +24,11 @@ background-color: #472A19;
     color: #D39054;
     font-size: 1.1em;
     padding: 0.5em 1em;
+}
 
+
+.navbar .navbar-nav .nav-link:hover {
+    color: black;
 }
 
 /* Changed coloe of toggler button*/
@@ -161,6 +165,11 @@ font-size: 75px;
     
 }
 
+.modal-content {
+    background-color: #472A19;
+    color: orange;
+}
+
 
 
 .findus {
@@ -207,4 +216,3 @@ background-color: white;
     }   
    
 }
-
