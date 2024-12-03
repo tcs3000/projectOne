@@ -35,7 +35,7 @@ body {
 
 
 .navbar .navbar-nav .nav-link:hover {
-    color: black;
+    color: azure;
 }
 
 /* Changed coloe of toggler button*/
@@ -105,6 +105,10 @@ font-size: 75px;
         background-color: orange;
     }
 
+
+.menu-item {
+    background-color: orange;
+}
     
     .card {
         width 400px;
