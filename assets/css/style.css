@@ -98,6 +98,10 @@ font-size: 75px;
         background-color: orange;
     }
 
+
+.menu-item {
+    background-color: orange;
+}
     
     .card {
         width 400px;
