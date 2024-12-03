@@ -1,6 +1,11 @@
-
+* {
+color: #D39054;
+}
+body {
+background-color: #472A19;
+}
   
-  .navbar {
+.navbar {
     font-family: "Lacquer", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -16,7 +21,7 @@
 
 
 .navbar .navbar-nav .nav-link {
-    color: orange;
+    color: #D39054;
     font-size: 1.1em;
     padding: 0.5em 1em;
 
@@ -95,7 +100,7 @@ font-size: 75px;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: orange;
+    color: #D39054;
     text-align: center;
     margin: 20px;
 
@@ -112,14 +117,13 @@ footer .social-links  a {
     font-size: 24px;
     padding: 10px 15px;
     border-radius: 90px;
-    background-color: orange;
     color: white;
     transition: all 100ms ease-in-out;
 
 }
 
 footer .social-links a:hover {
-color: orange;
+color: #D39054;
 background-color: white;
 }
 
