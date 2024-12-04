@@ -96,68 +96,18 @@
     color: orange;
 }
 
-/*.coutdown button {
-    font-family: "Lacquer", system-ui;
-    border: 1px solid orange; 
-}
-*/
+
 .menu h2{
 color: orange;
 text-align: center;
 font-size: 65px;
 }
-/*
-.menu-item {
-    background-color: orange;
+
+.menu img {
+    max-width: 400px;
+    max-height: 270px;
 }
-        
-        .card {
-            width: 400px; 
-            flex-direction: column;
-            justify-content: center; 
-            background-color: azure;
-            border-radius: 10px;
-            overflow: hidden;
-            margin: 20px;
-            }
-    
-    
-    
-        .card img{
-            width: cover;
-            height: auto;
-            margin-top: 0px;
-            border-radius: 10px
-        }
-    
-    
-        .card-content {
-         
-            border-radius: 10px;
-            overflow: hidden;
-            margin: 20px;
-        }
-        .card-content h3 {
-            font-size: 30px;
-            font-family: lacquer;
-            
-            margin-bottom: 10px;
-        }
-        .card-content p {
-            font-size: 15px;
-        }
-        
-        .card-content .btn{
-            display: inline-block;
-            padding: 8px 16px;
-            background-color: orange;
-            border-radius: 5px;
-            margin-top: 16px;
-            color: white;
-        
-        }
-        */
-    
+
     .btn {
         color: orange;
         background-color: #472A19;
