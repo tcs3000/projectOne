@@ -125,6 +125,10 @@ font-size: 65px;
     max-height: 270px;
 }
 
+.menu ul {
+    list-style-type: none;
+}
+
     .btn {
         color: orange;
         background-color: #472A19;
