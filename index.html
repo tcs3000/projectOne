@@ -21,8 +21,8 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand d-lg-none" href="#"><img src="./assets/images/logo1.png" alt="logo freepik"></a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,57 +31,62 @@
               <a class="nav-link" href="#menu">MENU</a>
             </li>
 
-        <!-- Button trigger modal -->
-                        <li class="nav-item">
-                        <a type="button" class="btn-light btn nav-link" data-bs-toggle="modal" data-bs-target="#waitListModal">Wait List</a>
-                          
+            <!-- Button trigger modal -->
+            <li class="nav-item">
+              <a type="button" class="btn-light btn nav-link" data-bs-toggle="modal"
+                data-bs-target="#waitListModal">Wait List</a>
 
-                  <!-- Modal -->
-                        <div class="modal fade" id="waitListModal" tabindex="-1" aria-labelledby="waitListModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="waitListModalLabel">Wait List</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
 
-                  <!-- Modal body content goes here, add in a form. -->
-                                <p class="text-center">Join our wait list to get notified when a table is available.</p>
-                              </div>
-                  <!-- Form goes here -->
-                              <div>
-                                <form class="customerInfo">
-                                  <div class="mb-3">
-                                    <input type="name" class="form-control rounded-3" id="customerName" placeholder="Name">
-                                  </div>
-                                  <div class="mb-3">
-                                    <input type="phoneNumber" class="form-control rounded-3" id="customerPhone" placeholder="Phone Number">
-                                  </div>
-                                </form>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" id="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acceptedMessage">Submit</button>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                              </div>
-                            </div>
-                          </div>
+              <!-- Modal -->
+              <div class="modal fade" id="waitListModal" tabindex="-1" aria-labelledby="waitListModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="waitListModalLabel">Wait List</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <!-- Modal body content goes here, add in a form. -->
+                      <p class="text-center">Join our wait list to get notified when a table is available.</p>
+                    </div>
+                    <!-- Form goes here -->
+                    <div>
+                      <form class="customerInfo">
+                        <div class="mb-3">
+                          <input type="name" class="form-control rounded-3" id="customerName" placeholder="Name">
                         </div>
-
-
-                  <!-- Modal for closing -->
-                      <div class="modal fade" id="acceptedMessage" tabindex="-1" aria-labelledby="waitListModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-body">
-                              <p class="p-5" id="postSubmitModal"></p>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                          </div>
+                        <div class="mb-3">
+                          <input type="phoneNumber" class="form-control rounded-3" id="customerPhone"
+                            placeholder="Phone Number">
                         </div>
-                      </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" id="submit" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#acceptedMessage">Submit</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Modal for closing -->
+              <div class="modal fade" id="acceptedMessage" tabindex="-1" aria-labelledby="waitListModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p class="p-5" id="postSubmitModal"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
             </li>
@@ -99,8 +104,8 @@
     </nav>
 
   </header>
-<!--Hero sction-->
-  <div class="p-5 text-center bg-image rounded-3" style="
+  <!--Hero sction-->
+  <div class="hero p-5 text-center bg-image rounded-3" style="
 background-image: url('./assets/images/3 pizza on wood table.jpg');
 height: 600px; background-size: cover;
 ">
@@ -118,8 +123,11 @@ height: 600px; background-size: cover;
 
   <!--Slogan section-->
   <section class="slogan p-5 mb-5 text-center">
+    <p class="d-none d-xl-block">- - - - - - - - - - - - - - - - - - - - </p>
     <p>Good to the last slice</p>
-   <a href="#menu"> <button type="button" class="btn btn-warning btn-lg p-3">Order now</button></a>
+    <a href="#menu"> <button type="button" class="btn btn-warning btn-lg p-3">Order now</button></a>
+    <p class="d-none d-xl-block">- - - - - - - - - - - - - - - - - - - - </p>
+
   </section>
 
 
@@ -127,7 +135,6 @@ height: 600px; background-size: cover;
 
 
   <section class="deals text-center m-3" id="deals">
-    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
     <h2 class="deals mb-5">Deals of the week</h2>
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
@@ -178,69 +185,61 @@ height: 600px; background-size: cover;
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  
-
   </section>
+  <!--Coutdown section-->
 
-
-  <section>
-    <div class="container text-center m-5 coutdown">
-      <div class="row">
-        <div class="col">
-          <button class="btn btn-warning btn-lg m-5 ">Reservaition</button>
-        </div>
-
-
-        <div class="col text-center">
-          <div class="lc-block">
-            <div editable="rich">
-
-              <h2>Reserve table ...</h2>
-
-              <p>New Year Party is...</p>
-            </div>
-          </div>
-
-          <div class="lc-block mb-3">
-            <p class="display-4 text-primary" id="demo"></p>
-          </div>
-          <!-- script cotdown block -->
-
-
-          <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("Jan 1, 2025 00:00:25").getTime();
-
-            // Update the count down every 1 second
-            var x = setInterval(function () {
-
-              // Get todays date and time
-              var now = new Date().getTime();
-
-              // Find the distance between now and the count down date
-              var distance = countDownDate - now;
-
-              // Time calculations for days, hours, minutes and seconds
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-              // Display the result in the element with id="demo"
-              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s ";
-
-              // If the count down is finished, write some text 
-              if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED...HAPPY NEW YEAR";
-              }
-            }, 1000);
-          </script>
-        </div>
+  <section class="m-5">
+    <div class="container text-center m-3 coutdown">
+      <p class="d-none d-xl-block">- - - - - - - - - - - - - - - - - - - - </p>
+      <div editable="rich">
+        <p>Our new location open soon ...</p>
       </div>
 
-      <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="display-4 text-primary" id="coutdown"></p>
+
+    </div>
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-warning btn-lg m-5 ">Reservaition</button>
+      </div>
+
+      <!-- script cotdown block -->
+
+
+      <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 1, 2025 00:00:01").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+          // Get todays date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the result in the element with id="demo"
+          document.getElementById("coutdown").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+          // If the count down is finished, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("coutdown").innerHTML = "EXPIRED...HAPPY NEW YEAR";
+          }
+        }, 1000);
+      </script>
+    </div>
+    </div>
+
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
 
     </div>
 
@@ -250,59 +249,59 @@ height: 600px; background-size: cover;
   <section class="menu" id="menu">
 
     <h2>MENU</h2>
-    
-      <div class="container text-center ">
+
+    <div class="container text-center ">
 
 
-        <div class="card container">
-          <div class="row menu-item">
-            <div class="card col menu-item">
-              <img src="./assets/images/Menu Appetizers.JPG">
-              <div class="card-content">
-                <h3>Appetizers</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="" class="btn">View Appetizers</a>
-              </div>
-            </div>
-
-
-
-
-
-            <div class="card col menu-item">
-              <img src="./assets/images/Pizza Menu Card.jpg">
-              <div class="card-content">
-                <h3>Pizza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="" class="btn">View Pizzas</a>
-              </div>
+      <div class="card container">
+        <div class="row menu-item">
+          <div class="card col menu-item">
+            <img src="./assets/images/Menu Appetizers.JPG">
+            <div class="card-content">
+              <h3>Appetizers</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <a href="" class="btn">View Appetizers</a>
             </div>
           </div>
 
 
-          <div class="row menu-item">
-            <div class="card col">
-              <img src="./assets/images/MenuDrinks 2.png">
-              <div class="card-content">
-                <h3>Drinks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="" class="btn">View Drinks</a>
-              </div>
+
+
+
+          <div class="card col menu-item">
+            <img src="./assets/images/Pizza Menu Card.jpg">
+            <div class="card-content">
+              <h3>Pizza</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <a href="" class="btn">View Pizzas</a>
             </div>
+          </div>
+        </div>
+
+
+        <div class="row menu-item">
+          <div class="card col">
+            <img src="./assets/images/MenuDrinks 2.png">
+            <div class="card-content">
+              <h3>Drinks</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <a href="" class="btn">View Drinks</a>
+            </div>
+          </div>
 
 
 
-            <div class="card col">
-              <img src="./assets/images/Menu Desserts.JPG  ">
-              <div class="card-content">
-                <h3>Desserts</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="" class="btn">View Desserts</a>
-              </div>
+          <div class="card col">
+            <img src="./assets/images/Menu Desserts.JPG  ">
+            <div class="card-content">
+              <h3>Desserts</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <a href="" class="btn">View Desserts</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
 
@@ -315,7 +314,7 @@ height: 600px; background-size: cover;
 
     <h2>find us</h2>
 
-   <p>Call Us: 907-955-9791</p>
+    <p>Call Us: 907-955-9791</p>
     <p>Locate Us: 123 Elf Road, North Pole, 99705</p>
 
   </section>
@@ -330,8 +329,9 @@ height: 600px; background-size: cover;
       <a href="www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
 
-    <p class="text-center mt-3">This project was coded by Team 5, and it is 
-      <a href="https://github.com/tcs3000/projectOne" target="_blank">open-sourced</a> </p>
+    <p class="text-center mt-3">This project was coded by Team 5, and it is
+      <a href="https://github.com/tcs3000/projectOne" target="_blank">open-sourced</a>
+    </p>
 
 
 
