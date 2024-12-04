@@ -56,11 +56,18 @@
 .slogan {
     margin: 30px;
 }
-.slogan p{
+.slogan p {
     
     font-size: 65px;
     text-align: center;
-    color: orange;
+    color: orange; 
+}
+
+mark {
+    font-size: 65px;
+    text-align: center;
+    background-color: #472A19;
+    color: azure;
 }
 
 .slogan button {
@@ -77,7 +84,18 @@
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    color: orange;
+    color: azure;
+}
+
+.carousel-caption h5 {
+    color: azure;
+    font-size: 36px;
+    
+}
+
+.carousel-caption p {
+    color: azure;
+    font-size: 24px;
 }
 
 .deals {
@@ -95,7 +113,6 @@
     font-size: 65px;
     color: orange;
 }
-
 
 .menu h2{
 color: orange;
